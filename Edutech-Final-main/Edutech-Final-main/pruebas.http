@@ -1,0 +1,27 @@
+### 1. Listar personas (Debería salir vacío al principio)
+GET http://localhost:8080/emp/listar
+
+### 2. Agregar a Jorge
+POST http://localhost:8080/emp/agregar
+Content-Type: application/json
+
+{
+  "nombre": "Jorge",
+  "apellido": "Estudiante",
+  "rut": "21.816.731-4",
+  "direccion": "San Bernardo",
+  "telefono": "987654321"
+}
+
+### 3. Agregar a Otra Persona
+POST http://localhost:8080/emp/agregar
+Content-Type: application/json
+
+{
+  "nombre": "Agustin",
+  "apellido": "Compañero",
+  "rut": "11.222.333-k",
+  "direccion": "Santiago",
+  "telefono": "911223344"
+}
+
